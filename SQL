@@ -1,0 +1,24 @@
+CREATE TABLE data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(20),
+    address TEXT,
+    linkedin VARCHAR(255),
+    degree VARCHAR(255),
+    institution VARCHAR(255),
+    companyName VARCHAR(255),
+    jobTitle VARCHAR(255),
+    programmingLanguages VARCHAR(255),
+    databases VARCHAR(255),
+    otherSkills VARCHAR(255)
+);
+
+INSERT INTO Resume (name, email, phone, address, linkedin, degree, institution, companyName, jobTitle, programmingLanguages, databases, otherSkills)
+VALUES ('John Doe', 'johndoe@email.com', '123-456-7890', '123 Main St, City, State, ZIP', 'https://www.linkedin.com/johndoe', 'Bachelor of Science', 'University of XYZ', 'ABC Corp', 'Software Engineer', 'Java, C++, Python', 'MySQL, MongoDB', 'Project Management');
+
+INSERT INTO Resume (name, email, phone, address, degree, institution, companyName, jobTitle, programmingLanguages, databases, otherSkills)
+VALUES ('Jane Smith', 'janesmith@email.com', '987-654-3210', '456 Elm St, Town, State, ZIP', 'Master of Business Administration', 'Business School ABC', 'XYZ Inc', 'Marketing Manager', 'SQL, Excel, Python', 'Oracle, Salesforce', 'Digital Marketing, Market Analysis');
+
+INSERT INTO Resume (name, email, phone, degree, institution, companyName, jobTitle, programmingLanguages, databases, otherSkills)
+VALUES ('Alice Johnson', 'alice@email.com', '555-123-4567', 'Ph.D. in Computer Science', 'Research University XYZ', 'Tech Innovators', 'Research Scientist', 'Python, MATLAB', 'PostgreSQL, Hadoop', 'Machine Learning, Data Analysis');
